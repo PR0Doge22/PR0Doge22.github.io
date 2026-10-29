@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(151, 164, 151);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+::selection {
+    background-color: rgb(159, 69, 36);
+    color: white;
+}
+
+header {
+    margin: 0;
+    background-color: rgb(212, 221, 212);
+    padding: 2rem;
+}
+
+main {
+    background-color:  rgb(212, 221, 212);
+    padding: 5%;
+    padding-bottom: 7rem;
+    width: 80%;
+    margin-left: 5%;
+    font-size: 1.15rem;
+}
+
+footer {
+    margin-left: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+    margin: 0;
+}
+
+label {
+    text-decoration: underline;
+}
+
+#Box {
+    background-color: rgb(229, 239, 229);
+    padding: 2rem;
+
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+#custom-name {
+    padding: .2rem;
+    background-color: black;
+    color: rgb(212, 221, 212);
+}
+
+#custom-name:focus {
+    outline: none;
+    border-color: rgb(159, 69, 36);
+    border-radius: 1%;
+}
+
+input[type="radio"] {
+  accent-color: rgb(159, 69, 36);
+}
+
+.generate {
+    font-size: 1.85rem;
+    margin: 1rem;
+    margin-right: 0;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(212, 221, 212);
+}
+
+.generate:hover {
+    background-color: rgb(159, 69, 36);
+    color: white;
+}
